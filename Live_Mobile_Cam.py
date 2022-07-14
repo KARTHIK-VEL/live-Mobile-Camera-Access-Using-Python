@@ -1,5 +1,5 @@
 import cv2
-capture = cv2.VideoCapture("http://25.149.199.7:8080/video")
+capture = cv2.VideoCapture("http://username/video")
 while(True):
    ret, frame = capture.read()
    cv2.imshow('livestream', frame)
