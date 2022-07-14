@@ -2,7 +2,7 @@
 To Access Live Mobile Camera Using Python 
 # Environment setup:
 
-1. Install Anaconda:
+1.Install Anaconda:
 
  https://www.anaconda.com/download/
  
@@ -36,7 +36,7 @@ Replace myenv with the environment name or or directory path
        
      Install IP Webcam in playstore:
        
-      ![WhatsApp Image 2022-07-14 at 9 22 47 PM](https://user-images.githubusercontent.com/53464755/179024697-2e1c5e5d-b222-4d91-8b1e-5511eda4f164.jpeg)
+     ![WhatsApp Image 2022-07-14 at 9 22 47 PM](https://user-images.githubusercontent.com/53464755/179024697-2e1c5e5d-b222-4d91-8b1e-5511eda4f164.jpeg)
      
      Open IP Webcam app and scroll down click on Start server.
      
@@ -70,19 +70,13 @@ Replace myenv with the environment name or or directory path
           
          * Replace username with the your IPWebcam app http link .
 
-              ![WhatsApp Image 2022-07-14 at 9 34 00 PM](https://user-images.githubusercontent.com/53464755/179026696-31a1a243-4ed8-4618-9c8d-31ff9652f424.jpeg)
-
-               
-               
-               
-               
-               
-               
-           
-              capture = cv2.VideoCapture("http://username/video")
+          capture = cv2.VideoCapture("http://username/video")
               
                   eg:
                      cap = cv2.VideoCapture('http://10..66.16:8080')
+          
+     ![WhatsApp Image 2022-07-14 at 9 34 00 PM](https://user-images.githubusercontent.com/53464755/179026696-31a1a243-4ed8-4618-9c8d-31ff9652f424.jpeg)
+
      When you run the script for the first time, it will download the pre-trained model from this link and place it under pre-trained directory in the current path.
 ## output
 
