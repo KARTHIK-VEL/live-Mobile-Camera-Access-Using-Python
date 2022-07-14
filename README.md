@@ -75,9 +75,10 @@ Replace myenv with the environment name or or directory path
                   eg:
                      cap = cv2.VideoCapture('http://10..66.16:8080')
           
-     ![WhatsApp Image 2022-07-14 at 9 34 00 PM](https://user-images.githubusercontent.com/53464755/179026696-31a1a243-4ed8-4618-9c8d-31ff9652f424.jpeg)
+     
 
-     When you run the script for the first time, it will download the pre-trained model from this link and place it under pre-trained directory in the current path.
+![WhatsApp Image 2022-07-14 at 9 34 00 PM](https://user-images.githubusercontent.com/53464755/179026696-31a1a243-4ed8-4618-9c8d-31ff9652f424.jpeg)
+
 ## output
 
 ![vlcsnap-2022-07-14-20h57m01s865](https://user-images.githubusercontent.com/53464755/179019463-6fb0cb1b-6d6d-477c-917a-4e9de0060033.png)
